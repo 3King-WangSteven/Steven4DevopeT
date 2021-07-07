@@ -17,7 +17,7 @@ env:
   resourceGroupName: 'fabmedicalst-solstevenwang40'
   containerRegistryName: 'fabmedicalSW4'
   containerRegistry: 'fabmedicalSW4.azurecr.io'
-  dockerfilePath: './content-web'
+  dockerfilePath: './content-api'
   tag: '${{ github.run_id  }}'
 
 # Jobs define the actions that take place when code is pushed to the main branch
